@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Company:</strong>
+  <%= @bitcoin.company %>
+</p>
+
+<p>
+  <strong>Last:</strong>
+  <%= @bitcoin.last %>
+</p>
+
+<%= link_to 'Edit', edit_bitcoin_path(@bitcoin) %> |
+<%= link_to 'Back', bitcoins_path %>
